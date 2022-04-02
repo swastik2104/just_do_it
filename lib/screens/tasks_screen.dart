@@ -42,12 +42,12 @@ class _TasksScreenState extends State<TasksScreen> {
                       bottom: MediaQuery.of(context).viewInsets.bottom),
                   child: Container(
                     height: MediaQuery.of(context).size.height * 0.26,
-                    color: const Color(0xFF757575),
+                    color: const Color(0xFFDEF4FD),
                     child: Container(
                       padding: const EdgeInsets.only(
                           top: 20, left: 30, right: 30, bottom: 30),
                       decoration: const BoxDecoration(
-                          color: Colors.white,
+                          color: Color(0xFFDEF4FD),
                           borderRadius: BorderRadius.only(
                             topRight: Radius.circular(20),
                             topLeft: Radius.circular(20),
@@ -117,16 +117,16 @@ class _TasksScreenState extends State<TasksScreen> {
                     size: 30,
                     color: Colors.lightBlueAccent,
                   ),
-                  backgroundColor: Colors.white,
+                  backgroundColor: Color(0xFFDEF4FD),
                   radius: 30,
                 ),
                 const SizedBox(
                   height: 10,
                 ),
                 const Text(
-                  'Todoey',
+                  'Just Do It',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Color(0xFFDEF4FD),
                     fontSize: 50,
                     fontWeight: FontWeight.w700,
                   ),
@@ -136,7 +136,7 @@ class _TasksScreenState extends State<TasksScreen> {
                   child: Text(
                     '${tasks.length} Tasks',
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: Color(0xFFDEF4FD),
                       fontSize: 18,
                     ),
                   ),
@@ -148,7 +148,7 @@ class _TasksScreenState extends State<TasksScreen> {
             child: Container(
               height: 500,
               decoration: const BoxDecoration(
-                color: Colors.white,
+                color: Color(0xFFDEF4FD),
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(20),
                   topRight: Radius.circular(20),
